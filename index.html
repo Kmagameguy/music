@@ -18,8 +18,8 @@
   }
 
   function showInfo(data, tabletop) {
-
-    $(".post").append('<div class=”text”>' + '<h1>' + data[0].artist + '</h1>'+ '<p>' + data[0].album + '</p>' + '</div>');
+    alert(data[0].artist + ", " + data[0].album)
+    $(".post").append('<h1>' + data[0].artist + '</h1>'+ '<p>' + data[0].album + '</p>');
   }
 
   window.addEventListener('DOMContentLoaded', init)
