@@ -4,29 +4,21 @@
 <body>
 <div class=”post”>
 </div>
-<script type="text/javascript">
-function init() {
-  Tabletop.init( { key: 'https://docs.google.com/spreadsheets/d/1yopIXkbR-n2RN7KEOkkeidSPDQETZHbE6h2pUrP-Xd8/edit?usp=sharing',
-                   callback: showInfo(data, tabletop) {
-                       console.log(data)
-                   },
-                   simpleSheet: true } )
-}
+<script type='text/javascript'>
+  var publicSpreadsheetUrl = 'https://docs.google.com/spreadsheets/d/1yopIXkbR-n2RN7KEOkkeidSPDQETZHbE6h2pUrP-Xd8/edit?usp=sharing';
 
-function showInfo(data, tabletop){
-  alert('Successfully processed!')
-    console.log(data);
-  for (var i = 0; i < data.length; i++) {
-  $(‘.post’).append(
-  ‘<div class=”text”>’ +
-  ‘<h1>’ + data[i].artist + ‘</h1>’+
-  data[i].album +
-  ‘</div> ‘ + ‘<div class=”meta-info”>’ +
-  ‘<div class=”date”>’ + data[i].date-discovered + ‘</div>’ +
-  ‘</div>’ +
-  ‘</div>’);
+  function init() {
+    Tabletop.init( { key: publicSpreadsheetUrl,
+                     callback: showInfo,
+                     simpleSheet: true } )
   }
-}
-window.addEventListener('DOMContentLoaded', init)
+
+  function showInfo(data, tabletop) {
+    alert('Successfully processed!')
+    console.log(data);
+  }
+
+  window.addEventListener('DOMContentLoaded', init)
 </script>
+
 </body>
