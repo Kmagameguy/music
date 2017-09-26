@@ -20,16 +20,12 @@
   function showInfo(data, tabletop) {
     alert(data[0].artist)
     console.log(data);
-    for (var i = 0; i < data.length; i++) {
       $('.post').append(
         '<div class=”text”>' +
-        '<h1>' + data[i].artist + '</h1>'+
-        data[i].album +
-        '</div>' + '<div class=”meta-info”>' +
-        '<div class=”date”>' + '</div>' +
+        '<h1>' + data[0].artist + '</h1>'+
+        data[0].album +
         '</div>' +
       '</div>');
-    }
   }
 
   window.addEventListener('DOMContentLoaded', init)
