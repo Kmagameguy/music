@@ -18,8 +18,8 @@
   }
 
   function showInfo(data, tabletop) {
-    $("#post").append("<h1>" + data[0].artist + "</h1>" + "<p>" + data[0].album + "</p>");
-    
+    $("#post").append(data[0].artist);
+
   }
 
   window.addEventListener('DOMContentLoaded', init)
