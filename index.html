@@ -13,11 +13,13 @@
 
   function init() {
     Tabletop.init( { key: publicSpreadsheetUrl,
-                     callback: showInfo(data, tabletop),
+                     callback: showInfo,
                      simpleSheet: true } )
   }
 
   function showInfo(data, tabletop) {
+    alert('Successfully processed!')
+    console.log(data);
     for (var i = 0; i < data.length; i++) {
       $('.post').append(
         '<div class=”text”>' +
