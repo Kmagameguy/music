@@ -6,7 +6,7 @@
 <script src='https://cdnjs.cloudflare.com/ajax/libs/tabletop.js/1.5.1/tabletop.min.js'></script>
 </head>
 <body>
-<div class=”post”>
+<div id=”post”>
 </div>
 <script type='text/javascript'>
   var publicSpreadsheetUrl = 'https://docs.google.com/spreadsheets/d/1yopIXkbR-n2RN7KEOkkeidSPDQETZHbE6h2pUrP-Xd8/edit?usp=sharing';
@@ -19,7 +19,7 @@
 
   function showInfo(data, tabletop) {
     alert(data[0].artist + ", " + data[0].album)
-    $(".post").append('<h1>' + data[0].artist + '</h1>'+ '<p>' + data[0].album + '</p>');
+    $("#post").append("<h1>" + data[0].artist + "</h1>"+ "<p>" + data[0].album + "</p>");
   }
 
   window.addEventListener('DOMContentLoaded', init)
