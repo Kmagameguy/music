@@ -14,16 +14,16 @@
   }
 
   function showInfo(data, tabletop) {
-  for (var i = 0; i < data.length; i++) {
-  $(‘.post’).append(
-  ‘<div class=”text”>’ +
-  ‘<h1>’ + data[i].artist + ‘</h1>’+
-  data[i].album +
-  ‘</div> ‘ + ‘<div class=”meta-info”>’ +
-  ‘<div class=”date”>’ + data[i].date-discovered + ‘</div>’ +
-  ‘</div>’ +
-  ‘</div>’);
-  }
+    for (var i = 0; i < data.length; i++) {
+      $('.post').append(
+        '<div class=”text”>' +
+        '<h1>' + data[i].artist + '</h1>'+
+        data[i].album +
+        '</div>' + '<div class=”meta-info”>' +
+        '<div class=”date”>' + '</div>' +
+        '</div>' +
+      '</div>');
+    }
   }
 
   window.addEventListener('DOMContentLoaded', init)
