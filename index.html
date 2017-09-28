@@ -3,15 +3,42 @@
 <head>
   <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400">
   <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/tabletop.js/1.5.1/tabletop.min.js'></script>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'></script>
+  <script src="text/javascript">
+    $(document).keypress(
+      function(event){
+        if(event.which === '13') {
+          event.preventDefault();
+        }
+    });
+  </script>
 </head>
   <body>
-    <div class="container" style="padding:50px 250px;">
+
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-xs-6">
+            <div class="navbar-header">
+              <a class="navbar-brand navbar-left" href="#">KING(DOM)</a>
+            </div>
+          </div>
+          <div class="col-xs-6">
+            <div class="navbar-right">
+              <p class="navbar-text">Kevin's Internet Noise Garage (Database Of Music)</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container-fluid" style="padding:50px 250px;">
       <form role = "form">
         <div class="form-group">
-          <h1>Search for an artist or album</h1>
+          <h1>Search for an artist, album, or by genre</h1>
           <input type ="input" class="form-control input-lg" id="txt-search" placeholder="Type your search here">
         </div>
       </form>
@@ -27,13 +54,6 @@
 
      function loadInfo(data, tabletop) {
       console.log(data);
-      $('txt-search').on('keyup keypress', function(e) {
-        var keyCode = e.keyCode || e.which;
-        if(keyCode === 13) {
-          e.preventDefault();
-          return false;
-        }
-      });
       $('#txt-search').keyup(function(){
         var searchField = $(this).val();
         if(searchField === '') {
