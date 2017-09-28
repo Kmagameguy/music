@@ -44,12 +44,16 @@
           var output = '<div class="row">';
           var count = 1;
           $.each(data, function(key, val){
-            if((val.artist.search(regex) != -1) || (val.album.search(regex) != -1)) {
-              output += '<div class="col-md-6 well">';
-              output += '<div class="col-md-3"><img class="img-responsive" src="'+val.albumartlink+'" alt="'+ val.artist +'" height="50" width="50" /></div>';
+            if((val.artist.search(regex) != -1) || (val.album.search(regex) != -1) || (val.genre.search(regex) != -1)) {
+              output += '<div>';
+              output += '<div class="col-md-3"><img class="img-responsive" src="'+val.albumartlink+'" alt="'+ val.artist +'" /></div>';
               output += '<div class="col-md-7">';
-              output += '<h5>' + val.artist + '</h5>';
-              output += '<p>' + val.album + '</p>';
+              output += '<h3>' + val.artist + '</h3>';
+              output += '<p>' + val.album + ' | ' + val.genre +'</p>';
+              output += '<p>Standout tracks: ' + val.StandoutTracks + '</p>';
+              output += '<hr>';
+              output += '<h5>First Impressions:</h5>';
+              output += '<p>' + val.FirstImpressions + '</p>';
               output += '</div>';
               output += '</div>';
               if(count%2 == 0){
