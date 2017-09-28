@@ -5,39 +5,54 @@
   <link rel="stylesheet" href="css/normalize.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/tabletop.js/1.5.1/tabletop.min.js'></script>
-  <script src="js/tipuesearch_content.js"></script>
-  <link rel="stylesheet" href="css/tipuesearch.css">
-  <script src="js/tipuesearch_set.js"></script>
-  <script src="js/tipuesearch.min.js"></script>
 </head>
-<body>
-  <div class="myForm">
-    <form action="search.html">
-      <div class="tipue_search_left"><img src="images/search.png" class="tipue_search_icon"></div>
-      <div class="tipue_search_right"><input type="text" name="q" id="tipue_search_input" pattern=".{3,}" title="At least 3 characters" required></div>
-      <div style="clear: both;"></div>
-</form>
-<div id=tipue_search_content></div>
+  <body>
+    <div class="container" style="padding:50px 250px;">
+      <form role = "form">
+        <div class="form-group">
+          <input type ="input" class="form-control input-lg" id="txt-search" placeholder="Type your search here">
+        </div>
+      </form>
+    <div id="filter-records"></div>
   </div>
-<div class="post">
+  <footer>
+    <script type="text/javascript">
+      var mySpreadsheet = 'https://docs.google.com/spreadsheets/d/1yopIXkbR-n2RN7KEOkkeidSPDQETZHbE6h2pUrP-Xd8/edit?usp=sharing';
 
-</div>
-<script type='text/javascript'>
-  var publicSpreadsheetUrl = 'https://docs.google.com/spreadsheets/d/1yopIXkbR-n2RN7KEOkkeidSPDQETZHbE6h2pUrP-Xd8/edit?usp=sharing';
-
-  function init() {
-    Tabletop.init( { key: publicSpreadsheetUrl,
-                     callback: showInfo,
+      Tabletop.init( { key: mySpreadsheet,
+                     callback: loadInfo,
                      simpleSheet: true } )
-  }
 
-  function showInfo(data, tabletop) {
-    $(".post").append("<h1>" + data[0].artist + "</h1>"+ "<p>" + data[0].album + "</p>");
-    console.log(data);
-  }
-
-  window.addEventListener('DOMContentLoaded', init)
-</script>
-
-</body>
+     function loadInfo(data, tabletop) {
+      console.log(data);
+      $('#txt-search').keyup(function(){
+        var searchField = $(this).val();
+        if(searchField === '') {
+          $('#filter-records').html('');
+          return;
+        }
+          var regex = new RegExp(searchField, "i");
+          var output = '<div class="row">';
+          var count = 1;
+          $.each(data, function(key, val){
+            if((val.artist.search(regex) != -1) || (val.album.search(regex) != -1)) {
+              output += '<div class="col-md-6 well">';
+              output += '<div class="col-md-7">';
+              output += '<h5>' + val.artist + '</h5>';
+              output += '<p>' + val.album + '</p>';
+              output += '</div>';
+              output += '</div>';
+              if(count%2 == 0){
+                output += '</div><div class="row">';
+              }
+              count++;
+            }
+          });
+          output += '</div>';
+          $('#filter-records').html(output);
+      });
+    }
+    </script>
+  </footer>
+  </body>
 </html>
