@@ -5,6 +5,7 @@
   <link rel="stylesheet" href="css/normalize.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/tabletop.js/1.5.1/tabletop.min.js'></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 </head>
   <body>
     <div class="container" style="padding:50px 250px;">
@@ -37,6 +38,7 @@
           $.each(data, function(key, val){
             if((val.artist.search(regex) != -1) || (val.album.search(regex) != -1)) {
               output += '<div class="col-md-6 well">';
+              output += '<div class="col-md-3"><img class="img-responsive" src="'+val.albumartlink+'" alt="'+ val.artist +'" height="50" width="50" /></div>';
               output += '<div class="col-md-7">';
               output += '<h5>' + val.artist + '</h5>';
               output += '<p>' + val.album + '</p>';
