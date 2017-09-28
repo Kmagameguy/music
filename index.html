@@ -51,6 +51,11 @@
               output += '<h3>' + val.artist + '</h3>';
               output += '<p>' + val.album + ' | ' + val.genre +'</p>';
               output += '<p>Standout tracks: ' + val.StandoutTracks + '</p>';
+              output += '<p>Rating: ';
+              for(i=0; i < val.rating; i++){
+                output += '<span class="glyphicon glyphicon-fire"></span>';
+              }
+              output += '</p>';
               output += '<hr>';
               output += '<h5>First Impressions:</h5>';
               output += '<p>' + val.FirstImpressions + '</p>';
