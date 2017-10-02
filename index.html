@@ -7,17 +7,19 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/tabletop.js/1.5.1/tabletop.min.js'></script>
   <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'></script>
-  <script src="text/javascript">
-    $(document).keypress(
-      function(event){
-        if(event.which === '13') {
-          event.preventDefault();
-        }
+  <script type="text/javascript">
+    $(document).ready(function (){
+      $('li a').click(function(e){
+        $('li.active').removeClass('active');
+        var $parent = $(this).parent();
+        $parent.addClass('active');
+        e.preventDefault();
+      });
     });
   </script>
 </head>
   <body>
-
+    <!--HEADER-->
     <nav class="navbar navbar-default">
       <div class="container-fluid">
         <div class="row">
@@ -34,16 +36,20 @@
         </div>
       </div>
     </nav>
-
-    <div class="container-fluid" style="padding:50px 250px;">
-      <form role = "form">
-        <div class="form-group">
-          <h1>Search for an artist, album, or by genre</h1>
-          <input type ="input" class="form-control input-lg" id="txt-search" placeholder="Type your search here">
+    <!--BODY CONTENT-->
+    <div class="container-fluid" style="padding:15px 5px;">
+      <a name="top"></a>
+      <!--ARTIST CARDS-->
+      <div class="col-xs-10">
+        <div class="container-fluid" id="filter-records"></div>
+      </div>
+      <!--SIDEBAR NAV-->
+      <div class="col-xs-2">
+        <div class="container-fluid" id="link-list">
         </div>
-      </form>
-    <div id="filter-records"></div>
-  </div>
+      </div>
+    </div>
+  <!--GSHEET PARSER-->
   <footer>
     <script type="text/javascript">
       var mySpreadsheet = 'https://docs.google.com/spreadsheets/d/1yopIXkbR-n2RN7KEOkkeidSPDQETZHbE6h2pUrP-Xd8/edit?usp=sharing';
@@ -54,43 +60,35 @@
 
      function loadInfo(data, tabletop) {
       console.log(data);
-      $('#txt-search').keyup(function(){
-        var searchField = $(this).val();
-        if(searchField === '') {
-          $('#filter-records').html('');
-          return;
+
+      var output = '<div class="container-fluid style="padding:5px">';
+      var linkList = '<ul class="nav nav-list">';
+      for (var i = 0; i < data.length; i++) {
+        output += '<div class="row well">';
+        output += '<div class="col-sm-4"><img class="img-responsive" src="' + data[i].albumartlink + '" alt="' + data[i].artist +'" /><br /><a href="#top">back to top</a></div>';
+        output += '<div class="col-sm-8">';
+        output += '<a name="' + data[i].artist + '"></a>';
+        output += '<h3>' + data[i].artist + '</h3>';
+        output += '<p>' + data[i].album + ' | ' + data[i].genre + '</p>';
+        output += '<p>Standout tracks: ' + data[i].StandoutTracks + '</p>';
+        output += '<p>Rating: ';
+        for(j = 0; j < data[i].rating; j++){
+          output += '<span class="glyphicon glyphicon-fire"></span>';
         }
-          var regex = new RegExp(searchField, "i");
-          var output = '<div class="row">';
-          var count = 1;
-          $.each(data, function(key, val){
-            if((val.artist.search(regex) != -1) || (val.album.search(regex) != -1) || (val.genre.search(regex) != -1)) {
-              output += '<div>';
-              output += '<div class="col-md-3"><img class="img-responsive" src="'+val.albumartlink+'" alt="'+ val.artist +'" /></div>';
-              output += '<div class="col-md-7">';
-              output += '<h3>' + val.artist + '</h3>';
-              output += '<p>' + val.album + ' | ' + val.genre +'</p>';
-              output += '<p>Standout tracks: ' + val.StandoutTracks + '</p>';
-              output += '<p>Rating: ';
-              for(i=0; i < val.rating; i++){
-                output += '<span class="glyphicon glyphicon-fire"></span>';
-              }
-              output += '</p>';
-              output += '<hr>';
-              output += '<h5>First Impressions:</h5>';
-              output += '<p>' + val.FirstImpressions + '</p>';
-              output += '</div>';
-              output += '</div>';
-              if(count%2 == 0){
-                output += '</div><div class="row">';
-              }
-              count++;
-            }
-          });
-          output += '</div>';
-          $('#filter-records').html(output);
-      });
-    }
+        output += '</p>';
+        output += '<hr>';
+        output += '<h5>First Impressions:</h5>';
+        output += '<p>' + data[i].FirstImpressions + '</p>';
+        output += '</div>';
+        output += '</div>';
+
+        linkList += '<li><a href="#' + data[i].artist + '">' + data[i].artist + '</a>';
+      }
+      output += '</div>';
+      linkList += '</ul>';
+      $('#filter-records').html(output);
+      $('#link-list').html(linkList);
+    };
     </script>
   </footer>
   </body>
