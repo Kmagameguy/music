@@ -1,8 +1,40 @@
 {
-  "title": "Kevin's Keys",
+  "title": "device_if,device_unless example",
   "rules": [
     {
-      "description": "Set 1 to cmd + click",
+      "description": "Open Karabiner-Elements by f5 in non-Apple keyboards",
+      "manipulators": [
+        {
+          "conditions": [
+            {
+              "type": "device_unless",
+              "identifiers": [
+                {
+                  "vendor_id": 5426,
+                  "product_id": 83
+                }
+              ]
+            }
+          ],
+          "type": "basic",
+          "from": {
+            "key_code": "f5",
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "shell_command": "open -a 'Karabiner-Elements.app'"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Open Karabiner-EventViewer by f6 in HHKB BT JP keyboards",
       "manipulators": [
         {
           "conditions": [
@@ -18,16 +50,16 @@
           ],
           "type": "basic",
           "from": {
-            "key_code": "1",
+            "key_code": "f6",
             "modifiers": {
               "optional": [
                 "any"
               ]
             }
           },
-          "to":[
+          "to": [
             {
-              "key_code": "f11"
+              "shell_command": "open -a 'Karabiner-EventViewer.app'"
             }
           ]
         }
