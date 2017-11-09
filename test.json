@@ -5,17 +5,31 @@
       "description": "Set 1 to cmd + click",
       "manipulators": [
         {
+          "conditions": [
+            {
+              "type": "device_if",
+              "identifiers": [
+                {
+                  "vendor_id": 5426,
+                  "product_id": 83
+                }
+              ]
+            }
+          ],
           "type": "basic",
           "from": {
-            "key_code": "hyphen",
+            "key_code": "1",
             "modifiers": {
-              "mandatory": ["left_command"]
+              "optional": [
+                "any"
+              ]
             }
           },
-          "to": {
-            "key_code": "f11",
-            "modifiers": "left_command"
-          }
+          "to":[
+            {
+              "key_code": "f11"
+            }
+          ]
         }
       ]
     }
