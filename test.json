@@ -1,0 +1,23 @@
+{
+  "title": "Kevin's Keys",
+  "rules": [
+    {
+      "description": "Set 1 to cmd + click",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "hyphen",
+            "modifiers": {
+              "mandatory": ["left_command"]
+            }
+          },
+          "to": {
+            "key_code": "f11",
+            "modifiers": "left_command"
+          }
+        }
+      ]
+    }
+  ]
+}
