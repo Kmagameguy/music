@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="{{ site.lang | default: "en-us" }}">
+  <head>
+    {% include head.html %}
+  </head>
+  <body class="bg-light">
+    <div class="container-fluid" style="max-width:850px;">
+      {% include nav.html %}
+      <div class="card mt-2 px-5 py-3">
+        <div class="row mt-2 px-5 py-3">
+          <div class="col-sm">
+            <span><img class="img-fluid" src="{{ page.cover }}" alt="{{ page.title }}" /></span>
+          </div>
+            <div class="col-sm">
+            <h3>{{ page.artist }}</h3>
+            <p>{{ page.album }} | {{ page.genre }}</p>
+            <p>Standout Tracks:</p>
+            <ul>
+            {% for track in page.tracks %}
+              <li>{{ track }}</li>
+            {% endfor %}
+            </ul>
+            <p>Rating:
+              {% for count in (1..page.rating) %}
+                <span class="fas fa-fire text-primary"></span>
+              {% endfor %}
+            </p>
+            <p>Album Links:
+              <span class="m-1"><a href="{{ page.links.spotify }}" target="_blank"><i class="fa fa-spotify" aria-hidden="true"></i></a></span>
+              <span class="m-1"><a href="{{ page.links.apple }}" target="_blank"><i class="fa fa-apple" aria-hidden="true"></i></a></span>
+              <span class="m-1"><a href="{{ page.links.amazon }}" target="_blank"><i class="fa fa-amazon" aria-hidden="true"></i></a></span>
+              <span class="m-1"><a href="{{ page.links.google }}" target="_blank"><i class="fa fa-google" aria-hidden="true"></i></a></span>
+            </p>
+          </div>
+        </div>
+        <hr />
+        <div class="row">
+          <div class="review-content mt-3 mb-2">
+            {{ content }}
+          </div>
+          <div class="embed-responsive embed-responsive-16by9 mb-5">
+            <iframe class="embed-responsive-item" src="{{ page.video }}" allowfullscreen></iframe>
+          </div>
+          {% include footer.html %}
+          </div>
+      </div>
+    </div>
+  </body>
+</html>
