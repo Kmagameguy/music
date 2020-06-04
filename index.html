@@ -1,104 +1,56 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <title>Kevin's Internet Noise Garage (Database of Music)</title>
-  <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400">
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/tabletop.js/1.5.1/tabletop.min.js'></script>
-  <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'></script>
-  <script src="https://use.fontawesome.com/e8a770cac3.js"></script>
-</head>
-  <body>
-    <!--HEADER-->
-    <nav class="navbar navbar-default">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-xs-6">
-            <div class="navbar-header">
-              <a class="navbar-brand navbar-left" href="#">KING(DOM)</a>
-            </div>
-          </div>
-          <div class="col-xs-6">
-            <div class="navbar-right">
-              <p class="navbar-text">Kevin's Internet Noise Garage (Database Of Music)</p>
-            </div>
-          </div>
-        </div>
+---
+layout: home
+---
+<div class="row justify-content-center align-items-center text-secondary">
+  <span>Kevin's Internet Noise Garage (Database of Music)</span>
+</div>
+<div class="card mt-2 px-5 py-3 justify-content-center align-items-center">
+  {% assign counter = 0 %}
+  {% for post in paginator.posts %}
+    {% assign remainder = counter | modulo: 4 %}
+    {% if counter == 0 %}
+      <div class="row">
+    {% elsif remainder == 0 %}
       </div>
-    </nav>
-    <!--BODY CONTENT-->
-    <div class="container-fluid" style="padding:15px 5px;">
-      <a name="top"></a>
-      <!--ARTIST CARDS-->
-      <div class="col-xs-9">
-        <div class="container-fluid" id="filter-records"></div>
-      </div>
-      <!--SIDEBAR NAV-->
-      <div class="col-xs-3">
-        <div class="container-fluid text-center" id="link-list">
+      <div class="row">
+    {% endif %}
+    <div class="col-sm px-1 pt-2 hv-image">
+      <a href="{{ post.url }}" alt="{{ post.title }}" class="cover-img">
+        <img class="img-fluid" src="{{ post.cover }}" alt="{{ post.title }}" />
+      </a>
+      <div class="hover-overlay">
+        <div class="hover-text">
+          {{ post.artist }}
+          <br />- <br />
+          {{ post.album}}
         </div>
       </div>
     </div>
-  <!--GSHEET PARSER-->
-  <footer>
-    <script type="text/javascript">
-      var mySpreadsheet = 'https://docs.google.com/spreadsheets/d/1yopIXkbR-n2RN7KEOkkeidSPDQETZHbE6h2pUrP-Xd8/edit?usp=sharing';
+    {% assign counter = counter | plus: 1 %}
+  {% endfor %}
+  </div>
+</div>
 
-      Tabletop.init( { key: mySpreadsheet,
-                     callback: loadInfo,
-                     simpleSheet: true } )
+{% if paginator.total_pages > 1 %}
+<div class="pagination justify-content-center align-items-center my-4">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path | relative_url }}">&laquo; Prev</a>
+  {% endif %}
 
-     function loadInfo(data, tabletop) {
-      console.log(data);
+  <div class="px-3">
+  {% for page in (1..paginator.total_pages) %}
+    {% if page == paginator.page %}
+      <em>{{ page }}</em>
+    {% elsif page == 1 %}
+      <a href="{{ paginator.previous_page_path | relative_url }}">{{ page }}</a>
+    {% else %}
+      <a href="{{ site.paginate_path | relative_url | replace: ':num', page }}">{{ page }}</a>
+    {% endif %}
+  {% endfor %}
+  </div>
 
-      var output = '<div class="container-fluid style="padding:5px">';
-      var linkList = '<div class="row well">';
-      linkList += '<ul class="nav nav-list">';
-      for (var i = 0; i < data.length; i++) {
-        output += '<div class="row well">';
-        output += '<div class="row">';
-        output += '<div class="col-sm-5"><img class="img-responsive" src="' + data[i].albumartlink + '" alt="' + data[i].artist +'" /><br /></div>';
-        output += '<div class="col-sm-7">';
-        output += '<a name="' + data[i].artist + '"></a>';
-        output += '<h3>' + data[i].artist + '</h3>';
-        output += '<p>' + data[i].album + ' | ' + data[i].genre + '</p>';
-        output += '<p>Standout tracks: ' + data[i].StandoutTracks + '</p>';
-        output += '<p>Rating: ';
-        for(j = 0; j < data[i].rating; j++){
-          output += '<span class="glyphicon glyphicon-fire"></span>';
-        }
-        output += '<p>Album Links:';
-        output += '<span style="padding:4px;"><a href="' + data[i].spotify + '" target="_blank"><i class="fa fa-spotify" aria-hidden="true"></i></a></span>';
-        output += '<span style="padding:4px;"><a href="' + data[i].applemusic + '" target="_blank"><i class="fa fa-apple" aria-hidden="true"></i></a></span>';
-        output += '<span style="padding:4px;"><a href="' + data[i].amazon + '" target="_blank"><i class="fa fa-amazon" aria-hidden="true"></i></a></span>';
-        output += '<span style="padding:4px;"><a href="' + data[i].googleplay + '" target="_blank"><i class="fa fa-google" aria-hidden="true"></i></a></span>';
-        output += '</p>';
-        output += '</p>';
-        output += '<hr>';
-        output += '<h5>First Impressions:</h5>';
-        output += '<p>' + data[i].FirstImpressions + '</p>';
-        output += '<div class="embed-responsive embed-responsive-16by9">';
-        output += '<iframe class="embed-responsive-item" src="' + data[i].youtube + '"></iframe>';
-        output += '</div>';
-        output += '</div>';
-        output += '</div>';
-        output += '<div class="row"><div class="col-sm-12"><a href="#top">back to top</a></div></div>';
-        output += '</div>';
-
-        linkList += '<li><span><a href="#' + data[i].artist + '">' + data[i].artist + '<br>' + data[i].album + '</a></span>';
-        linkList += '<hr>';
-      }
-      output += '</div>';
-      linkList += '</ul>';
-      linkList += '</div>';
-      $('#filter-records').html(output);
-      $('#link-list').html(linkList);
-    };
-    </script>
-  </footer>
-  </body>
-</html>
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path | relative_url }}">Next &raquo;</a>
+  {% endif %}
+</div>
+{% endif %}
