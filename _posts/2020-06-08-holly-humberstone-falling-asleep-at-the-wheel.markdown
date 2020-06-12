@@ -9,6 +9,7 @@ tracks:
   - "Falling Asleep at the Wheel"
 genre: "Alternative/Indie"
 rating: 5
+cover: hollyhumberstonefallingasleepatthewheel.jpg
 video: https://www.youtube.com/embed/ILPo-HdvfHA
 links:
   spotify: https://open.spotify.com/album/359BMiYkEMDC70gvpCVljg

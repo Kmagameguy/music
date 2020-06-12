@@ -9,6 +9,7 @@ tracks:
   - "This Isn't the Place"
 genre: "Industrial Rock"
 rating: 4
+cover: nineinchnailsaddviolence.jpg
 video: https://www.youtube.com/embed/_g8nAqDu3gI
 links:
   spotify: https://open.spotify.com/album/28DJ00Yr5oOhH0uOUgTQwc

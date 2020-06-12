@@ -9,6 +9,7 @@ tracks:
   - "Tonight We Ride"
 genre: "Melodic Death Metal"
 rating: 4
+cover: unleashthearchersexplorers.jpg
 video: https://www.youtube.com/embed/liOpF1oHhu4
 links:
   spotify: https://open.spotify.com/album/5JybNeeVC1mXYcJtiLGOhq

@@ -9,6 +9,7 @@ tracks:
   - "Golden Dandelions"
 genre: "Pop Folk"
 rating: 3
+cover: barnscourtneytheattractionsofyouth.jpg
 video: https://www.youtube.com/embed/IrV90gXmOpA
 links:
   spotify: https://open.spotify.com/album/2pWDyiJFya59ue0391kzSl

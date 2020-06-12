@@ -11,6 +11,7 @@ tracks:
   - "Fritz the Dog"
 genre: "Alternative Metal"
 rating: 3
+cover: heislegendfew.jpg
 video: https://www.youtube.com/embed/PsdraZGJdmk
 links:
   spotify: https://open.spotify.com/album/1uXJ01pmkQzFFvb7h6sO0y

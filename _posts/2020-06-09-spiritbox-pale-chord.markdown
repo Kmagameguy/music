@@ -10,6 +10,7 @@ tracks:
   - "Rule of Nines"
 genre: "Post-Metal"
 rating: 5
+cover: spiritboxsinglescollection.jpg
 video: https://www.youtube.com/embed/yht0WDdzGJM
 links:
   spotify: https://open.spotify.com/album/5MyS8T1MyTTXGKUXpkrJWL

@@ -9,6 +9,7 @@ tracks:
   - "No Roots"
 genre: "Pop"
 rating: 3
+cover: alicemertonnoroots.jpg
 video: https://www.youtube.com/embed/PUdyuKaGQd4
 links:
   spotify: https://open.spotify.com/album/3zGtZAOCr1SnHjl1pshNQA

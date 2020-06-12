@@ -10,6 +10,7 @@ tracks:
   - "Time Out of Place"
 genre: "Melodeath"
 rating: 5
+cover: darktranquillityatoma.jpg
 video: https://www.youtube.com/embed/7tccLO1ZI_k
 links:
   spotify: https://open.spotify.com/album/3N5vYy8vIFgpvtrIbFtvvG

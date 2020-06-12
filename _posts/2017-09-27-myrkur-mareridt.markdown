@@ -9,6 +9,7 @@ tracks:
   - "Ulvinde"
 genre: "Black Metal"
 rating: 2
+cover: myrkurmareridt.jpg
 video: https://www.youtube.com/embed/M9cNZQIzShc
 links:
   spotify: https://open.spotify.com/album/3ewAlccDDYFoybQaMnkTvW

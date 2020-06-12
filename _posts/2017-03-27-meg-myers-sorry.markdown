@@ -12,6 +12,7 @@ tracks:
   - "Make a Shadow"
 genre: "Indie Rock"
 rating: 5
+cover: megmyerssorry.jpg
 video: https://www.youtube.com/embed/PqG9hsjLf3M
 links:
   spotify: https://open.spotify.com/album/14Q6NvjUSthc0Xgb5EgtQd

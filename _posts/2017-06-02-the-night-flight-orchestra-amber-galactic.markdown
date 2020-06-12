@@ -9,6 +9,7 @@ tracks:
   - "Midnight Flyer"
 genre: "Dad Rock"
 rating: 2
+cover: thenightflightorchestraambergalactic.jpg
 video: https://www.youtube.com/embed/QOcnKnNKv-A
 links:
   spotify: https://open.spotify.com/album/3hrVTGlMtURm4TguypCyLo

@@ -10,6 +10,7 @@ tracks:
   - "Blood Moon"
 genre: "Hard Rock / Prog Metal"
 rating: 2
+cover: giraffetongueorchestrabrokenlines.jpg
 video: https://www.youtube.com/embed/EtJbgV3pGkI
 links:
   spotify: https://open.spotify.com/album/1Ppt4XPMcXzHYnJEIBIDmK

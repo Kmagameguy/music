@@ -9,6 +9,7 @@ tracks:
   - "Rain in Soho"
 genre: "Indie Rock"
 rating: 3
+cover: themountaingoatsgoths.jpg
 video: https://www.youtube.com/embed/anS6bcPpvoQ
 links:
   spotify: https://open.spotify.com/album/6VTTkMIKHhmFsZkKXsvS5I

@@ -9,6 +9,7 @@ tracks:
   - "People Don't Dance"
 genre: "Hip Hop"
 rating: 5
+cover: rdgldgrnredgoldgreen3.jpg
 video: https://www.youtube.com/embed/EQPGZQAmwHU
 links:
   spotify: https://open.spotify.com/album/2J0brHPHlO5efzP6WKMqWp

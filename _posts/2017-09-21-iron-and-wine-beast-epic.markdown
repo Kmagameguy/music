@@ -10,6 +10,7 @@ tracks:
   - "About a Bruise"
 genre: "Indie Rock"
 rating: 5
+cover: ironwinebeastepic.jpg
 video: https://www.youtube.com/embed/BXC80ZXQhvQ
 links:
   spotify: https://open.spotify.com/album/2Ha1FUPZ0RDMjLZFu1iVO1

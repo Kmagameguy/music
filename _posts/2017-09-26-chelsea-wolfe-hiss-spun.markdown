@@ -9,6 +9,7 @@ tracks:
   - "16 Psyche"
 genre: "Gothic Rock"
 rating: 3
+cover: chelseawolfehissspun.jpg
 video: https://www.youtube.com/embed/2sb5TszDqYE
 links:
   spotify: https://open.spotify.com/album/1nnenAgIzIipcodyg879Vx

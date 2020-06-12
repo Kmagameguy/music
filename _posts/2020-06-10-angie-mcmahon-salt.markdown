@@ -10,6 +10,7 @@ tracks:
   - "Slow Mover"
 genre: "Indie Rock"
 rating: 4
+cover: angiemcmahonsalt.jpg
 video: https://www.youtube.com/embed/MjrYof7zQ7c
 links:
   spotify: https://open.spotify.com/album/2ALvcYeRWEyQ5CMh0OtMcY

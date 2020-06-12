@@ -9,6 +9,7 @@ tracks:
   - "The Wanting"
 genre: "Southern Rock"
 rating: 3
+cover: jroddywalstonthebusinessdestroyersofthesoftlife.jpg
 video: https://www.youtube.com/embed/PGO-0OKhXsI
 links:
   spotify: https://open.spotify.com/album/3BfVRMIfODB0EHBaIPZrVO

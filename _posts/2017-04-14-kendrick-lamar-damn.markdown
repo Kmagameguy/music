@@ -9,6 +9,7 @@ tracks:
   - "Humble"
 genre: "Hip Hop"
 rating: 5
+cover: kendricklamardamn.jpg
 video: https://www.youtube.com/embed/tvTRZJ-4EyI
 links:
   spotify: https://open.spotify.com/album/4eLPsYPBmXABThSJ821sqY

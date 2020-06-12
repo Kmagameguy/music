@@ -9,6 +9,7 @@ tracks:
   - "Sand"
 genre: "Post-Hardcore"
 rating: 5
+cover: brutussand.jpg
 video: https://www.youtube.com/embed/7Nel5f9Dg9s
 links:
   spotify: https://open.spotify.com/track/10cTsbZ8yHfv3JSy5lpAbM?si=rUlTfx3yQFuFUGIfjwbTpg

@@ -9,6 +9,7 @@ tracks:
   - "Little Lies You're Told"
 genre: "Indie Rock"
 rating: 3
+cover: joywavecontent.jpg
 video: https://www.youtube.com/embed/0xfXcZSb8LE
 links:
   spotify: https://open.spotify.com/album/5RKLyPZ4P8WhO1uxDMXGe7

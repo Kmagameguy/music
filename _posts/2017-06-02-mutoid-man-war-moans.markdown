@@ -9,6 +9,7 @@ tracks:
   - "Bandages"
 genre: "Progressive Metal"
 rating: 3
+cover: mutoidmanwarmoans.jpg
 video: https://www.youtube.com/embed/U2OBw-LhNto
 links:
   spotify: https://open.spotify.com/album/6QOg4Y1J6j5BFC1T8uoud3

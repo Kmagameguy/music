@@ -9,9 +9,7 @@
       <div class="card mt-2 px-5 py-3">
         <div class="row mt-2 px-5 py-3">
           <div class="col-sm">
-            {% assign image_partial = page.artist | append: page.album %}
-            {% assign image_partial = image_partial | regex_replace: '(&amp;|[^0-9A-Za-z])', '' %}
-            <span><img class="img-fluid" src="{{ "/assets/covers/" | relative_url }}{{ image_partial }}.jpg" alt="{{ page.title }}" /></span>
+            <span><img class="img-fluid" src="/assets/covers/{{ page.cover }}" alt="{{ page.title }}" /></span>
           </div>
             <div class="col-sm">
             <h3>{{ page.artist }}</h3>

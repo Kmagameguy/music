@@ -10,6 +10,7 @@ tracks:
   - "Blood in the River"
 genre: "Avant-Garde Metal"
 rating: 3
+cover: zealardordevilisfine.jpg
 video: https://www.youtube.com/embed/BFGU0g1LA9I
 links:
   spotify: https://open.spotify.com/album/5Oc87gybQZkVeqogIFXzMd

@@ -9,6 +9,7 @@ tracks:
   - "Toe to Toes"
 genre: "Metal"
 rating: 3
+cover: mastodoncolddarkplace.jpg
 video: https://www.youtube.com/embed/HDjKC_DjsWo
 links:
   spotify: https://open.spotify.com/album/6uSD9SU0j8xgQAIxzPg0Fv
