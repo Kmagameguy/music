@@ -3,7 +3,6 @@ layout: posts
 title:  &artist "Joywave"
 date:   2017-05-15 22:02:16 -0400
 categories: music
-cover: https://i.imgur.com/xlYgKyA.png
 artist: *artist
 album: "Content"
 tracks:

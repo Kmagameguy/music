@@ -1,10 +1,9 @@
 ---
 layout: posts
-title:  "Dark Tranquillity"
-date:   2020-01-01 22:02:16 -0400
+title:  &artist "Dark Tranquillity"
+date:   2017-01-01 22:02:16 -0400
 categories: music
-cover: http://i.imgur.com/b1m51ZR.jpg
-artist: "Dark Tranquillity"
+artist: *artist
 album: "Atoma"
 tracks:
   - "The Absolute"

@@ -1,10 +1,9 @@
 ---
 layout: posts
-title:  "Kendrick Lamar"
+title:  &artist "Kendrick Lamar"
 date:   2017-04-14 22:02:16 -0400
 categories: music
-cover: http://i.imgur.com/Zu29Vxe.jpg
-artist: "Kendrick Lamar"
+artist: *artist
 album: "Damn."
 tracks:
   - "Humble"

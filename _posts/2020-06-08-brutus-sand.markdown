@@ -3,7 +3,6 @@ layout: posts
 title:  &artist "Brutus"
 date:   2020-06-08 23:00:00 -0400
 categories: music
-cover: https://i.imgur.com/ZTLwWTZ.jpg
 artist: *artist
 album: "Sand"
 tracks:

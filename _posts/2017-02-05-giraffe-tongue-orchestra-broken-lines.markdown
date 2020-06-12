@@ -1,10 +1,9 @@
 ---
 layout: posts
-title:  "Giraffe Tongue Orchestra"
-date:   2020-02-05 22:02:16 -0400
+title:  &artist "Giraffe Tongue Orchestra"
+date:   2017-02-05 22:02:16 -0400
 categories: music
-cover: http://i.imgur.com/CgLjH3m.jpg
-artist: "Giraffe Tongue Orchestra"
+artist: *artist
 album: "Broken Lines"
 tracks:
   - "Crucifixion"

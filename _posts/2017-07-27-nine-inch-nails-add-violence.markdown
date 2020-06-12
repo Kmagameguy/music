@@ -1,10 +1,9 @@
 ---
 layout: posts
-title:  "Nine Inch Nails"
+title:  &artist "Nine Inch Nails"
 date:   2017-07-27 22:02:16 -0400
 categories: music
-cover: https://i.imgur.com/tXry1O5.jpg
-artist: "Nine Inch Nails"
+artist: *artist
 album: "Add Violence"
 tracks:
   - "This Isn't the Place"

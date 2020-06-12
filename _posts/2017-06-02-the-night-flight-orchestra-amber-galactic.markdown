@@ -1,10 +1,9 @@
 ---
 layout: posts
-title:  "The Night Flight Orchestra"
+title:  &artist "The Night Flight Orchestra"
 date:   2017-06-02 22:02:16 -0400
 categories: music
-cover: https://i.imgur.com/O3QNiKs.jpg
-artist: "The Night Flight Orchestra"
+artist: *artist
 album: "Amber Galactic"
 tracks:
   - "Midnight Flyer"

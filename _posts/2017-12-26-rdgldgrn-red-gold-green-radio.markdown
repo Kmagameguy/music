@@ -1,10 +1,9 @@
 ---
 layout: posts
-title:  "RDGLDGRN"
+title:  &artist "RDGLDGRN"
 date:   2017-12-26 22:02:16 -0400
 categories: music
-cover: https://i.imgur.com/RhxYR1Q.jpg
-artist: "RDGLDGRN"
+artist: *artist
 album: "Red Gold Green 3"
 tracks:
   - "People Don't Dance"

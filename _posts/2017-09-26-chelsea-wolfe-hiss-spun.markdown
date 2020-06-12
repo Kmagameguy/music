@@ -1,10 +1,9 @@
 ---
 layout: posts
-title:  "Chelsea Wolfe"
+title:  &artist "Chelsea Wolfe"
 date:   2017-09-26 22:02:16 -0400
 categories: music
-cover: https://i.imgur.com/cPAE6iv.jpg
-artist: "Chelsea Wolfe"
+artist: *artist
 album: "Hiss Spun"
 tracks:
   - "16 Psyche"

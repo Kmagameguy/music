@@ -1,10 +1,9 @@
 ---
 layout: posts
-title:  "Mastodon"
-date:   2020-03-31 22:02:16 -0400
+title:  &artist "Mastodon"
+date:   2017-03-31 22:02:16 -0400
 categories: music
-cover: http://i.imgur.com/xL23GM1.jpg
-artist: "Mastodon"
+artist: *artist
 album: "Emperor of Sand"
 tracks:
   - "Show Yourself"

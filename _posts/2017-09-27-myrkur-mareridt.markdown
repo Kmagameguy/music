@@ -1,10 +1,9 @@
 ---
 layout: posts
-title:  "Myrkur"
+title:  &artist "Myrkur"
 date:   2017-09-27 22:02:16 -0400
 categories: music
-cover: https://i.imgur.com/hTxKrIE.jpg
-artist: "Myrkur"
+artist: *artist
 album: "Mareridt"
 tracks:
   - "Ulvinde"

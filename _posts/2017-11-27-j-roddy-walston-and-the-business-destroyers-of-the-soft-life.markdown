@@ -3,7 +3,6 @@ layout: posts
 title:  &artist "J. Roddy Walston &amp; The Business"
 date:   2017-11-27 22:02:16 -0400
 categories: music
-cover: https://i.imgur.com/JxooUZ2.jpg
 artist: *artist
 album: "Destroyers of the Soft Life"
 tracks:

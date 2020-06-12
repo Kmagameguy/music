@@ -1,10 +1,9 @@
 ---
 layout: posts
-title:  "The Mountain Goats"
+title:  &artist "The Mountain Goats"
 date:   2017-09-20 22:02:16 -0400
 categories: music
-cover: https://i.imgur.com/CwpjO3n.jpg
-artist: "The Mountain Goats"
+artist: *artist
 album: "Goths"
 tracks:
   - "Rain in Soho"

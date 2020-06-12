@@ -3,7 +3,6 @@ layout: posts
 title:  &artist "Mastodon"
 date:   2017-08-31 22:02:16 -0400
 categories: music
-cover: https://i.imgur.com/hv4Vaxv.jpg
 artist: *artist
 album: "Cold Dark Place"
 tracks:

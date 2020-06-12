@@ -1,10 +1,9 @@
 ---
 layout: posts
-title:  "Meg Myers"
+title:  &artist "Meg Myers"
 date:   2017-03-27 22:02:16 -0400
 categories: music
-cover: http://i.imgur.com/L66YQVG.jpg
-artist: "Meg Myers"
+artist: *artist
 album: "Sorry"
 tracks:
   - "A Bolt From The Blue"

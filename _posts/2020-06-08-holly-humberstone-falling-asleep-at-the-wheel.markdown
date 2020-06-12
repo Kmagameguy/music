@@ -3,7 +3,6 @@ layout: posts
 title:  &artist "Holly Humberstone"
 date:   2020-06-08 23:15:00 -0400
 categories: music
-cover: https://i.imgur.com/OpTATeR.jpg
 artist: *artist
 album: "Falling Asleep at the Wheel"
 tracks:

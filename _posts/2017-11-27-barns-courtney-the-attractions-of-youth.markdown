@@ -1,9 +1,8 @@
 ---
 layout: posts
 title:  &artist "Barns Courtney"
-date:   2017-09-26 22:02:16 -0400
+date:   2017-11-27 22:02:16 -0400
 categories: music
-cover: https://i.imgur.com/EYpBVq3.jpg
 artist: *artist
 album: "The Attractions of Youth"
 tracks:

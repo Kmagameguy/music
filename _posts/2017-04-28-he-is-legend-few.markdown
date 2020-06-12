@@ -1,10 +1,9 @@
 ---
 layout: posts
-title:  "He Is Legend"
+title:  &artist "He Is Legend"
 date:   2017-04-28 22:02:16 -0400
 categories: music
-cover: http://i.imgur.com/ntK3eWZ.jpg
-artist: "He Is Legend"
+artist: *artist
 album: "Few"
 tracks:
   - "Sand"

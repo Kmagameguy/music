@@ -3,7 +3,6 @@ layout: posts
 title:  &artist "Alice Merton"
 date:   2017-11-25 22:02:16 -0400
 categories: music
-cover: https://i.imgur.com/Tb0Vj13.jpg
 artist: *artist
 album: "No Roots"
 tracks:

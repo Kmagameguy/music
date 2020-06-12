@@ -1,10 +1,9 @@
 ---
 layout: posts
-title:  "Zeal &amp; Ardor"
-date:   2020-02-24 22:02:16 -0400
+title:  &artist "Zeal &amp; Ardor"
+date:   2017-02-24 22:02:16 -0400
 categories: music
-cover: http://i.imgur.com/qb1ATJQ.jpg
-artist: "Zeal &amp; Ardor"
+artist: *artist
 album: "Devil is Fine"
 tracks:
   - "Devil is Fine"

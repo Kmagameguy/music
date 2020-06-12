@@ -3,7 +3,6 @@ layout: posts
 title:  &artist "Unleash The Archers"
 date:   2020-06-01 23:30:00 -0400
 categories: music
-cover: https://i.imgur.com/JgZk4DQ.jpg
 artist: *artist
 album: "Explorers"
 tracks:

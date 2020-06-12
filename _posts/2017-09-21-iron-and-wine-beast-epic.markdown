@@ -1,10 +1,9 @@
 ---
 layout: posts
-title:  "Iron &amp; Wine"
+title:  &artist "Iron &amp; Wine"
 date:   2017-09-21 22:02:16 -0400
 categories: music
-cover: https://i.imgur.com/fc2790l.jpg
-artist: "Iron &amp; Wine"
+artist: *artist
 album: "Beast Epic"
 tracks:
   - "Thomas County Law"

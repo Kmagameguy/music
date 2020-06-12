@@ -1,10 +1,9 @@
 ---
 layout: posts
-title:  "TV On The Radio"
+title:  &artist TV On the Radio
 date:   2017-03-11 22:02:16 -0400
 categories: music
-cover: http://i.imgur.com/MQojWXX.jpg
-artist: "TV On The Radio"
+artist: *artist
 album: "Seeds"
 tracks:
   - "Careful You"

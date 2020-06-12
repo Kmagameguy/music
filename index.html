@@ -17,7 +17,9 @@ title: "KING(DOM)"
     {% endif %}
     <div class="col-sm px-1 pt-2 hv-image">
       <a href="{{ post.url }}" alt="{{ post.title }}" class="cover-img">
-        <img class="img-fluid" src="{{ post.cover }}" alt="{{ post.title }}" />
+        {% assign image_partial = post.artist | append: post.album %}
+        {% assign image_partial = image_partial | regex_replace: '(&amp;|[^0-9A-Za-z])', '' %}
+        <img class="img-fluid" src="{{ "/assets/covers/" | relative_url }}{{ image_partial }}.jpg" alt="{{ post.title }}" />
       </a>
       <div class="hover-overlay">
         <div class="hover-text">
