@@ -36,6 +36,7 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-paginate
+  - jekyll-regex-replace
 
 paginate: 15
 
