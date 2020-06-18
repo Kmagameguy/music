@@ -59,7 +59,7 @@ If the previous track built you up, *Pedestal* only serves to bring you crashing
 
 Which brings us to the funkiest track on the whole album: *Mister Impossible*.  Driven by a THICK boom-bap type beat (WHAT!), this track is clearly our duo cutting loose and having their fun.  The wicked lyrical content matched with the understated, droning, buzzing guitars and orchestral synths make this a track that could easily land itself in a John Wick or Bond-style action flick.  Purely radical.
 
-However, feeling slightly out of place, *Glowing* follows with more subdued melancholy.  While this is a perfectly servicable track on its own, it does feel odd sandwiched between the glowing *Mister Impossible* and *Gaunt Kids*.  This would feel more at home in the *Love Me Down* / *Let Me Down* mix.  Perhaps repeat listening will reveal a purpose that is not yet obvious.
+However, feeling slightly out of place, *Glowing* follows with more subdued melancholy.  While this is a perfectly servicable track on its own, it does feel odd sandwiched between the glowing *Mister Impossible* and *Gaunt Kids*.  This would feel more at home in the *Love Me Now* / *Let Me Down* mix.  Perhaps repeat listening will reveal a purpose that is not yet obvious.
 
 Speaking of *Gaunt Kids*, the penultimate track feels like a Big Grams B-Side!  The whole track plays like nonsensical, spoken word free-association that could easily be lifted from a Das Racist track somewhere between Heems' final verse on *Nutmeg* and the "we'll figure it out when we get there" instrumental styling of *Don Dada* from the *Shut Up, Dude* mixtape.
 
