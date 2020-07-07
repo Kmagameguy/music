@@ -1,10 +1,9 @@
 ---
 layout: posts
-title:  &artist "Alice Merton"
-date:   2017-11-25 22:02:16 -0400
-categories: music
-artist: *artist
+artist: "Alice Merton"
 album: "No Roots"
+date: 2017-11-25 22:02:16 -0400
+categories: music
 tracks:
   - "No Roots"
 genre: "Pop"

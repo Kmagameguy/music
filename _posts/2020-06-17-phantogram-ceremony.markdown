@@ -1,10 +1,9 @@
 ---
 layout: posts
-title:  &artist "Phantogram"
-date:   2020-06-17 23:54:00 -0400
-categories: music
-artist: *artist
+artist: "Phantogram"
 album: "Ceremony"
+date: 2020-06-17 23:54:00 -0400
+categories: music
 tracks:
   - "Into Happiness"
   - "Mister Impossible"

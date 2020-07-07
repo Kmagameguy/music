@@ -1,10 +1,9 @@
 ---
 layout: posts
-title:  &artist "RDGLDGRN"
-date:   2017-12-26 22:02:16 -0400
-categories: music
-artist: *artist
+artist: "RDGLDGRN"
 album: "Red Gold Green 3"
+date: 2017-12-26 22:02:16 -0400
+categories: music
 tracks:
   - "People Don't Dance"
 genre: "Hip Hop"

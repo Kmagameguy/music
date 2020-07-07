@@ -1,10 +1,9 @@
 ---
 layout: posts
-title:  &artist "Zeal &amp; Ardor"
-date:   2017-02-24 22:02:16 -0400
-categories: music
-artist: *artist
+artist: "Zeal &amp; Ardor"
 album: "Devil is Fine"
+date: 2017-02-24 22:02:16 -0400
+categories: music
 tracks:
   - "Devil is Fine"
   - "Blood in the River"

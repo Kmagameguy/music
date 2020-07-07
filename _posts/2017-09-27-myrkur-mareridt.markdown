@@ -1,10 +1,9 @@
 ---
 layout: posts
-title:  &artist "Myrkur"
-date:   2017-09-27 22:02:16 -0400
-categories: music
-artist: *artist
+artist: "Myrkur"
 album: "Mareridt"
+date: 2017-09-27 22:02:16 -0400
+categories: music
 tracks:
   - "Ulvinde"
 genre: "Black Metal"

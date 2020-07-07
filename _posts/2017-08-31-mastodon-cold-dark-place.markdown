@@ -1,10 +1,9 @@
 ---
 layout: posts
-title:  &artist "Mastodon"
-date:   2017-08-31 22:02:16 -0400
-categories: music
-artist: *artist
+artist: "Mastodon"
 album: "Cold Dark Place"
+date: 2017-08-31 22:02:16 -0400
+categories: music
 tracks:
   - "Toe to Toes"
 genre: "Metal"

@@ -1,10 +1,9 @@
 ---
 layout: posts
-title:  &artist "Nine Inch Nails"
-date:   2017-07-27 22:02:16 -0400
-categories: music
-artist: *artist
+artist: "Nine Inch Nails"
 album: "Add Violence"
+date: 2017-07-27 22:02:16 -0400
+categories: music
 tracks:
   - "This Isn't the Place"
 genre: "Industrial Rock"

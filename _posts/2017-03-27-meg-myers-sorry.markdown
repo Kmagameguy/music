@@ -1,10 +1,9 @@
 ---
 layout: posts
-title:  &artist "Meg Myers"
+artist: "Meg Myers"
+album: "Sorry"
 date:   2017-03-27 22:02:16 -0400
 categories: music
-artist: *artist
-album: "Sorry"
 tracks:
   - "A Bolt From The Blue"
   - "Desire"

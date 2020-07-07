@@ -1,10 +1,9 @@
 ---
 layout: posts
-title:  &artist "The Night Flight Orchestra"
-date:   2017-06-02 22:02:16 -0400
-categories: music
-artist: *artist
+artist: "The Night Flight Orchestra"
 album: "Amber Galactic"
+date: 2017-06-02 22:02:16 -0400
+categories: music
 tracks:
   - "Midnight Flyer"
 genre: "Dad Rock"

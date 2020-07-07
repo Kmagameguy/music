@@ -1,10 +1,9 @@
 ---
 layout: posts
-title:  &artist TV On the Radio
-date:   2017-03-11 22:02:16 -0400
-categories: music
-artist: *artist
+artist: "TV On the Radio"
 album: "Seeds"
+date: 2017-03-11 22:02:16 -0400
+categories: music
 tracks:
   - "Careful You"
   - "Happy Idiot"

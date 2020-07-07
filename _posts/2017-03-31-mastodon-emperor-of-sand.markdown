@@ -1,10 +1,9 @@
 ---
 layout: posts
-title:  &artist "Mastodon"
-date:   2017-03-31 22:02:16 -0400
-categories: music
-artist: *artist
+artist:  "Mastodon"
 album: "Emperor of Sand"
+date: 2017-03-31 22:02:16 -0400
+categories: music
 tracks:
   - "Show Yourself"
   - "Jaguar God"

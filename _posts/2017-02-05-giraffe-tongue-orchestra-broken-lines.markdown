@@ -1,10 +1,9 @@
 ---
 layout: posts
-title:  &artist "Giraffe Tongue Orchestra"
-date:   2017-02-05 22:02:16 -0400
-categories: music
-artist: *artist
+artist: "Giraffe Tongue Orchestra"
 album: "Broken Lines"
+date: 2017-02-05 22:02:16 -0400
+categories: music
 tracks:
   - "Crucifixion"
   - "Blood Moon"

@@ -1,10 +1,9 @@
 ---
 layout: posts
-title:  &artist "Unleash The Archers"
-date:   2020-06-01 23:30:00 -0400
-categories: music
-artist: *artist
+artist: "Unleash The Archers"
 album: "Explorers"
+date: 2020-06-01 23:30:00 -0400
+categories: music
 tracks:
   - "Tonight We Ride"
 genre: "Melodic Death Metal"

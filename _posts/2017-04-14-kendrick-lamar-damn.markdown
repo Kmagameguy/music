@@ -1,10 +1,9 @@
 ---
 layout: posts
-title:  &artist "Kendrick Lamar"
-date:   2017-04-14 22:02:16 -0400
-categories: music
-artist: *artist
+artist: "Kendrick Lamar"
 album: "Damn."
+date: 2017-04-14 22:02:16 -0400
+categories: music
 tracks:
   - "Humble"
 genre: "Hip Hop"

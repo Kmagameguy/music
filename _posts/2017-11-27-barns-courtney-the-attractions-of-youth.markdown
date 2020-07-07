@@ -1,10 +1,9 @@
 ---
 layout: posts
-title:  &artist "Barns Courtney"
-date:   2017-11-27 22:02:16 -0400
-categories: music
-artist: *artist
+artist: "Barns Courtney"
 album: "The Attractions of Youth"
+date: 2017-11-27 22:02:16 -0400
+categories: music
 tracks:
   - "Golden Dandelions"
 genre: "Pop Folk"

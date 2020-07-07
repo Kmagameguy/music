@@ -1,10 +1,9 @@
 ---
 layout: posts
-title:  &artist "Angie McMahon"
+artist: "Angie McMahon"
+album: "Salt"
 date:   2020-06-10 23:15:00 -0400
 categories: music
-artist: *artist
-album: "Salt"
 tracks:
   - "Keeping Time"
   - "Slow Mover"

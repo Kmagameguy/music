@@ -1,10 +1,9 @@
 ---
 layout: posts
-title:  &artist "The Mountain Goats"
-date:   2017-09-20 22:02:16 -0400
-categories: music
-artist: *artist
+artist: "The Mountain Goats"
 album: "Goths"
+date: 2017-09-20 22:02:16 -0400
+categories: music
 tracks:
   - "Rain in Soho"
 genre: "Indie Rock"

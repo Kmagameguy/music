@@ -1,10 +1,9 @@
 ---
 layout: posts
-title:  &artist "J. Roddy Walston &amp; The Business"
-date:   2017-11-27 22:02:16 -0400
-categories: music
-artist: *artist
+artist: "J. Roddy Walston &amp; The Business"
 album: "Destroyers of the Soft Life"
+date: 2017-11-27 22:02:16 -0400
+categories: music
 tracks:
   - "The Wanting"
 genre: "Southern Rock"

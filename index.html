@@ -3,7 +3,11 @@ layout: home
 title: "For the Love of Music"
 ---
 <div class="row justify-content-center align-items-center text-secondary">
-  <span class="text-uppercase">Latest Features</span>
+  {% if paginator.previous_page %}
+    <span class="text-uppercase">Latest Features (Page {{ paginator.page }})</span>
+  {% else %}
+    <span class="text-uppercase">Latest Features</span>
+  {% endif %}
 </div>
 <div class="card mt-2 px-5 py-3 justify-content-center align-items-center">
   {% assign counter = 0 %}

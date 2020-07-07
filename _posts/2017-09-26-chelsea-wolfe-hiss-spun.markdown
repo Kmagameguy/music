@@ -1,10 +1,9 @@
 ---
 layout: posts
-title:  &artist "Chelsea Wolfe"
-date:   2017-09-26 22:02:16 -0400
-categories: music
-artist: *artist
+artist: "Chelsea Wolfe"
 album: "Hiss Spun"
+date: 2017-09-26 22:02:16 -0400
+categories: music
 tracks:
   - "16 Psyche"
 genre: "Gothic Rock"

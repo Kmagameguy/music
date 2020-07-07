@@ -1,10 +1,9 @@
 ---
 layout: posts
-title:  &artist "Mutoid Man"
-date:   2017-06-02 22:02:16 -0400
-categories: music
-artist: *artist
+artist: "Mutoid Man"
 album: "War Moans"
+date: 2017-06-02 22:02:16 -0400
+categories: music
 tracks:
   - "Bandages"
 genre: "Progressive Metal"

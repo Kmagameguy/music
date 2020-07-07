@@ -1,10 +1,9 @@
 ---
 layout: posts
-title:  &artist "Brutus"
-date:   2020-06-08 23:00:00 -0400
-categories: music
-artist: *artist
+artist: "Brutus"
 album: "Sand"
+date: 2020-06-08 23:00:00 -0400
+categories: music
 tracks:
   - "Sand"
 genre: "Post-Hardcore"

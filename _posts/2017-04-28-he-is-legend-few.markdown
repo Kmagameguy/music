@@ -1,10 +1,9 @@
 ---
 layout: posts
-title:  &artist "He Is Legend"
-date:   2017-04-28 22:02:16 -0400
-categories: music
-artist: *artist
+artist: "He Is Legend"
 album: "Few"
+date: 2017-04-28 22:02:16 -0400
+categories: music
 tracks:
   - "Sand"
   - "Beaufort"

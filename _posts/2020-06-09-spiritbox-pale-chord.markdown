@@ -1,10 +1,9 @@
 ---
 layout: posts
-title:  &artist "Spiritbox"
-date:   2020-06-09 23:15:00 -0400
-categories: music
-artist: *artist
+artist: "Spiritbox"
 album: "Singles Collection"
+date: 2020-06-09 23:15:00 -0400
+categories: music
 tracks:
   - "Blessed Be"
   - "Rule of Nines"

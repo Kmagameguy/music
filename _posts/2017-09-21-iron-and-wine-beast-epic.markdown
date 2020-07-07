@@ -1,10 +1,9 @@
 ---
 layout: posts
-title:  &artist "Iron &amp; Wine"
-date:   2017-09-21 22:02:16 -0400
-categories: music
-artist: *artist
+artist: "Iron &amp; Wine"
 album: "Beast Epic"
+date: 2017-09-21 22:02:16 -0400
+categories: music
 tracks:
   - "Thomas County Law"
   - "About a Bruise"

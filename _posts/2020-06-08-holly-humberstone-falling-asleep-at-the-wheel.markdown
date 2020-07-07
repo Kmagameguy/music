@@ -1,10 +1,9 @@
 ---
 layout: posts
-title:  &artist "Holly Humberstone"
-date:   2020-06-08 23:15:00 -0400
-categories: music
-artist: *artist
+artist: "Holly Humberstone"
 album: "Falling Asleep at the Wheel"
+date: 2020-06-08 23:15:00 -0400
+categories: music
 tracks:
   - "Falling Asleep at the Wheel"
 genre: "Alternative/Indie"

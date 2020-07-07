@@ -1,10 +1,9 @@
 ---
 layout: posts
-title:  &artist "Dark Tranquillity"
-date:   2017-01-01 22:02:16 -0400
-categories: music
-artist: *artist
+artist: "Dark Tranquillity"
 album: "Atoma"
+date: 2017-01-01 22:02:16 -0400
+categories: music
 tracks:
   - "The Absolute"
   - "Time Out of Place"
