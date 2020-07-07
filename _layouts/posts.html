@@ -44,29 +44,37 @@
         </div>
         <hr />
         <div class="row">
-            {% assign word_count = content | strip_html | number_of_words %}
-            {% if word_count > 1 %}
-            <div>
-              <!-- https://help.medium.com/hc/en-us/articles/214991667-Read-time -->
-              <p class="font-italic text-muted">Posted: {{ page.date | date: "%B %-d, %Y" }} | {{ word_count | divided_by: 265 | plus: 1 }} min read.</p>
-            </div>
-            {% else %}
-              <p class="font-italic text-muted">Posted: {{ page.date | date: "%B %-d, %Y" }}</p>
-            {% endif %}
-          {% if word_count > 50 %}
-            <div id="review-content" class="mt-3 mb-2">
-              <div class="collapse" id="collapsable-content" aria-expanded="false">{{ content }}</div>
-              <a role="button" class="collapsed" data-toggle="collapse" href="#collapsable-content" aria-expanded="false" aria-controls="collapsable-content"></a>
-            </div>
+          {% assign word_count = content | strip_html | number_of_words %}
+          {% if word_count > 1 %}
+          <div class="col-12">
+            <!-- https://help.medium.com/hc/en-us/articles/214991667-Read-time -->
+            <p class="font-italic text-muted">Posted: {{ page.date | date: "%B %-d, %Y" }} | {{ word_count | divided_by: 265 | plus: 1 }} min read.</p>
+          </div>
           {% else %}
-            <div>{{ content }}</div>
+            <div class="col-12"><p class="font-italic text-muted">Posted: {{ page.date | date: "%B %-d, %Y" }}</p></div>
           {% endif %}
+        </div>
+        <div class="row">
+          <div class="col-12">
+            {% if word_count > 50 %}
+              <div id="review-content" class="mt-3 mb-2">
+                <div class="collapse" id="collapsable-content" aria-expanded="false">{{ content }}</div>
+                <a role="button" id="collapse-control" class="collapsed btn" data-toggle="collapse" href="#collapsable-content" aria-expanded="false" aria-controls="collapsable-content"></a>
+              </div>
+            {% else %}
+              {{ content }}
+            {% endif %}
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
             <div class="embed-responsive embed-responsive-16by9 mb-5">
               <iframe class="embed-responsive-item" src="{{ page.video }}" allowfullscreen></iframe>
             </div>
-          {% include footer.html %}
+          </div>
         </div>
       </div>
     </div>
+    {% include footer.html %}
   </body>
 </html>

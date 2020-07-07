@@ -62,12 +62,12 @@ blockquote {
   color: #00969c;
 }
 
-#review-content a.collapsed:after {
+#review-content #collapse-control.collapsed:after {
   content: '+ Show Full Review';
 }
 
-#review-content a:not(.collapsed):after {
-  content: '- Show Less';
+#review-content #collapse-control:not(.collapsed):after {
+  content: '- Hide Review';
 }
 
 #review-content #collapsable-content.collapse:not(.show) {
@@ -78,4 +78,10 @@ blockquote {
 
 #review-content #collapsable-content.collapsing {
   height: 4.5rem;
+}
+
+#collapse-control {
+  background-color: #00969c;
+  color: #fff;
+  min-width: 140px;
 }
