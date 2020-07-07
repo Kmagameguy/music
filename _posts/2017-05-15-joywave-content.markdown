@@ -4,7 +4,6 @@ artist: "Joywave"
 album: "Content"
 date: 2017-05-15 22:02:16 -0400
 categories: music
-artist: *artist
 tracks:
   - "Little Lies You're Told"
 genre: "Indie Rock"
