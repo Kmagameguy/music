@@ -66,6 +66,15 @@ blockquote {
   font-size: 0.75rem;
 }
 
+.cookie-banner {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  z-index: 999;
+  border-radius: 0px;
+  display: none;
+}
+
 #review-content #collapse-control.collapsed:after {
   content: '+ Show Full Review';
 }
