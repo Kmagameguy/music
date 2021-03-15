@@ -10,7 +10,7 @@ tracks:
 genre: "Heavy Metal"
 rating: 3
 cover: mastodonemperorofsand.jpg
-video: https://www.youtube.com/embed/HEubrZV04b0
+videoSlug: HEubrZV04b0
 links:
   spotify: https://open.spotify.com/album/1VzmKgEG38fsUBZVe15wuF
   apple: https://itunes.apple.com/ca/album/emperor-of-sand/1195230194

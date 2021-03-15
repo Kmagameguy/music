@@ -9,7 +9,7 @@ tracks:
 genre: "Pop"
 rating: 4
 cover: kieszacrave.jpg
-video: https://www.youtube.com/embed/cVISqHw5DSM
+videoSlug: cVISqHw5DSM
 links:
   spotify: https://open.spotify.com/artist/4zxvC7CRGvggq9EWXOpwAo
   apple: https://music.apple.com/us/album/1506612678

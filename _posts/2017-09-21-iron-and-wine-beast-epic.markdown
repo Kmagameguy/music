@@ -10,7 +10,7 @@ tracks:
 genre: "Indie Rock"
 rating: 5
 cover: ironwinebeastepic.jpg
-video: https://www.youtube.com/embed/BXC80ZXQhvQ
+videoSlug: BXC80ZXQhvQ
 links:
   spotify: https://open.spotify.com/album/2Ha1FUPZ0RDMjLZFu1iVO1
   apple: https://itunes.apple.com/us/album/beast-epic/1238344396

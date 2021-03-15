@@ -9,7 +9,7 @@ tracks:
 genre: "Progressive Metal"
 rating: 3
 cover: mutoidmanwarmoans.jpg
-video: https://www.youtube.com/embed/U2OBw-LhNto
+videoSlug: U2OBw-LhNto
 links:
   spotify: https://open.spotify.com/album/6QOg4Y1J6j5BFC1T8uoud3
   apple: https://itunes.apple.com/us/album/war-moans/1219140279

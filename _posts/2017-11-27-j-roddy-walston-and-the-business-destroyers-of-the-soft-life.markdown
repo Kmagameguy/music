@@ -9,7 +9,7 @@ tracks:
 genre: "Southern Rock"
 rating: 3
 cover: jroddywalstonthebusinessdestroyersofthesoftlife.jpg
-video: https://www.youtube.com/embed/PGO-0OKhXsI
+videoSlug: PGO-0OKhXsI
 links:
   spotify: https://open.spotify.com/album/3BfVRMIfODB0EHBaIPZrVO
   apple: https://itunes.apple.com/us/album/destroyers-of-the-soft-life/1270476917

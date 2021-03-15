@@ -9,7 +9,7 @@ tracks:
 genre: "Alternative/Indie"
 rating: 5
 cover: hollyhumberstonefallingasleepatthewheel.jpg
-video: https://www.youtube.com/embed/ILPo-HdvfHA
+videoSlug: ILPo-HdvfHA
 links:
   spotify: https://open.spotify.com/album/359BMiYkEMDC70gvpCVljg
   apple: https://music.apple.com/us/album/falling-asleep-at-the-wheel-single/1500487831

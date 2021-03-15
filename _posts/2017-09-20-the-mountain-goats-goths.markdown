@@ -9,7 +9,7 @@ tracks:
 genre: "Indie Rock"
 rating: 3
 cover: themountaingoatsgoths.jpg
-video: https://www.youtube.com/embed/anS6bcPpvoQ
+videoSlug: anS6bcPpvoQ
 links:
   spotify: https://open.spotify.com/album/6VTTkMIKHhmFsZkKXsvS5I
   apple: https://itunes.apple.com/us/album/goths/1207001417

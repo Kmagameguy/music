@@ -10,7 +10,7 @@ tracks:
 genre: "Dream Pop"
 rating: 5
 cover: phantogramceremony.jpg
-video: https://www.youtube.com/embed/oEiPkSxQVk8
+videoSlug: oEiPkSxQVk8
 links:
   spotify: https://open.spotify.com/album/7nm7uCqJQIoD8Er5kIDKqc
   apple: https://music.apple.com/us/album/ceremony/1496844632

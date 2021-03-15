@@ -9,7 +9,7 @@ tracks:
 genre: "Indie Rock"
 rating: 3
 cover: joywavecontent.jpg
-video: https://www.youtube.com/embed/0xfXcZSb8LE
+videoSlug: 0xfXcZSb8LE
 links:
   spotify: https://open.spotify.com/album/5RKLyPZ4P8WhO1uxDMXGe7
   apple: https://itunes.apple.com/us/album/content/1253560066

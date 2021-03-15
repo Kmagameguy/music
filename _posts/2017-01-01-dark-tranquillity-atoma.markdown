@@ -10,7 +10,7 @@ tracks:
 genre: "Melodeath"
 rating: 5
 cover: darktranquillityatoma.jpg
-video: https://www.youtube.com/embed/7tccLO1ZI_k
+videoSlug: 7tccLO1ZI_k
 links:
   spotify: https://open.spotify.com/album/3N5vYy8vIFgpvtrIbFtvvG
   apple: https://itunes.apple.com/us/album/atoma/1154647487

@@ -9,7 +9,7 @@ tracks:
 genre: "Black Metal"
 rating: 2
 cover: myrkurmareridt.jpg
-video: https://www.youtube.com/embed/M9cNZQIzShc
+videoSlug: M9cNZQIzShc
 links:
   spotify: https://open.spotify.com/album/3ewAlccDDYFoybQaMnkTvW
   apple: https://itunes.apple.com/us/album/mareridt-deluxe-version/1247992721
