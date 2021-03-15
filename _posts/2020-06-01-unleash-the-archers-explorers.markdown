@@ -9,7 +9,7 @@ tracks:
 genre: "Melodic Death Metal"
 rating: 4
 cover: unleashthearchersexplorers.jpg
-video: https://www.youtube.com/embed/liOpF1oHhu4
+videoSlug: liOpF1oHhu4
 links:
   spotify: https://open.spotify.com/album/5JybNeeVC1mXYcJtiLGOhq
   apple: https://music.apple.com/us/album/apex/1219794060

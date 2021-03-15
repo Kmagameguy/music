@@ -10,7 +10,7 @@ tracks:
 genre: "Post-Metal"
 rating: 5
 cover: spiritboxsinglescollection.jpg
-video: https://www.youtube.com/embed/yht0WDdzGJM
+videoSlug: yht0WDdzGJM
 links:
   spotify: https://open.spotify.com/album/5MyS8T1MyTTXGKUXpkrJWL
   apple: https://music.apple.com/us/album/blessed-be-single/1497794751

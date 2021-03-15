@@ -12,7 +12,7 @@ tracks:
 genre: "Indie Rock"
 rating: 5
 cover: megmyerssorry.jpg
-video: https://www.youtube.com/embed/PqG9hsjLf3M
+videoSlug: PqG9hsjLf3M
 links:
   spotify: https://open.spotify.com/album/14Q6NvjUSthc0Xgb5EgtQd
   apple: https://itunes.apple.com/us/album/sorry/1020769172

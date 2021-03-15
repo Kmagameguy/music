@@ -9,7 +9,7 @@ tracks:
 genre: "Hip Hop"
 rating: 5
 cover: rdgldgrnredgoldgreen3.jpg
-video: https://www.youtube.com/embed/EQPGZQAmwHU
+videoSlug: EQPGZQAmwHU
 links:
   spotify: https://open.spotify.com/album/2J0brHPHlO5efzP6WKMqWp
   apple: https://itunes.apple.com/us/album/red-gold-green-radio/1273963038

@@ -10,7 +10,7 @@ tracks:
 genre: "Hard Rock / Prog Metal"
 rating: 2
 cover: giraffetongueorchestrabrokenlines.jpg
-video: https://www.youtube.com/embed/EtJbgV3pGkI
+videoSlug: EtJbgV3pGkI
 links:
   spotify: https://open.spotify.com/album/1Ppt4XPMcXzHYnJEIBIDmK
   apple: https://itunes.apple.com/us/album/broken-lines/1169954798

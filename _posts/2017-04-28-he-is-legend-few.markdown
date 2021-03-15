@@ -11,7 +11,7 @@ tracks:
 genre: "Alternative Metal"
 rating: 3
 cover: heislegendfew.jpg
-video: https://www.youtube.com/embed/PsdraZGJdmk
+videoSlug: PsdraZGJdmk
 links:
   spotify: https://open.spotify.com/album/1uXJ01pmkQzFFvb7h6sO0y
   apple: https://itunes.apple.com/us/album/few/1203489780

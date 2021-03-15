@@ -9,7 +9,7 @@ tracks:
 genre: "Dad Rock"
 rating: 2
 cover: thenightflightorchestraambergalactic.jpg
-video: https://www.youtube.com/embed/QOcnKnNKv-A
+videoSlug: QOcnKnNKv-A
 links:
   spotify: https://open.spotify.com/album/3hrVTGlMtURm4TguypCyLo
   apple: https://itunes.apple.com/us/album/amber-galactic/1214492834

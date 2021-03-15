@@ -9,7 +9,7 @@ tracks:
 genre: "Hip Hop"
 rating: 5
 cover: kendricklamardamn.jpg
-video: https://www.youtube.com/embed/tvTRZJ-4EyI
+videoSlug: tvTRZJ-4EyI
 links:
   spotify: https://open.spotify.com/album/4eLPsYPBmXABThSJ821sqY
   apple: https://itunes.apple.com/ca/album/damn/1223592280

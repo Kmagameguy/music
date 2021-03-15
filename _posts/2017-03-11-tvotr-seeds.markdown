@@ -11,7 +11,7 @@ tracks:
 genre: "Indie Rock"
 rating: 5
 cover: tvontheradioseeds.jpg
-video: https://www.youtube.com/embed/-Frvbp2PC0E
+videoSlug: -Frvbp2PC0E
 links:
   spotify: https://open.spotify.com/album/2pJdnCpeXm3KVUlyuNSeRX
   apple: https://itunes.apple.com/ca/album/seeds/911188443

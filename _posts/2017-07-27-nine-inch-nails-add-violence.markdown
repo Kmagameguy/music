@@ -9,7 +9,7 @@ tracks:
 genre: "Industrial Rock"
 rating: 4
 cover: nineinchnailsaddviolence.jpg
-video: https://www.youtube.com/embed/_g8nAqDu3gI
+videoSlug: _g8nAqDu3gI
 links:
   spotify: https://open.spotify.com/album/28DJ00Yr5oOhH0uOUgTQwc
   apple: https://itunes.apple.com/us/album/add-violence-ep/1260014946
