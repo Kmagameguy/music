@@ -9,7 +9,7 @@ This repo contains the code & assets that serve my music blog at [music.kmagameg
 - [Bundler][bundler]
 - A JavaScript runtime (I prefer [NodeJS][nodejs])
 
-*[DigitalOcean][digitalocean] has a nice guide which demonstrates how to set up Ruby and Bundler with rbenv.  Check it out if you've never worked with either software before.*
+*[DigitalOcean][digitalocean] has a nice guide which demonstrates how to set up Ruby and Bundler with rbenv.  Check it out if you've never worked with any of them before.*
 
 ### Getting Set Up
 After you've satisfied the requirements above you can prepare this repo for local development as follows:
