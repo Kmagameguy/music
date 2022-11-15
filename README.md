@@ -9,6 +9,8 @@ This repo contains the code & assets that serve my music blog at [music.kmagameg
 - [Bundler][bundler]
 - A JavaScript runtime (I prefer [NodeJS][nodejs])
 
+*[DigitalOcean][digitalocean] has a nice guide which demonstrates how to set up Ruby and Bundler with rbenv.  Check it out if you've never worked with either software before.*
+
 ### Getting Set Up
 After you've satisfied the requirements above you can prepare this repo for local development as follows:
 1. Fork the repo
@@ -29,4 +31,5 @@ Since this is a personal music blog I'm not really accepting contributions at th
 [rbenv]:https://github.com/rbenv/rbenv
 [bundler]:https://bundler.io/
 [nodejs]:https://nodejs.org/en/
+[digitalocean]:https://www.digitalocean.com/community/tutorials/how-to-install-ruby-on-rails-with-rbenv-on-ubuntu-20-04
 [jekyll-docs]:https://jekyllrb.com/docs/posts/
