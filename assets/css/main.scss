@@ -99,6 +99,10 @@ blockquote {
   display: none;
 }
 
+#page-header {
+  margin-bottom: 0.5rem;
+}
+
 #review-content #collapse-control.collapsed:after {
   content: '+ Show Full Review';
 }
