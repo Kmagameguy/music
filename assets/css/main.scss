@@ -40,6 +40,10 @@ blockquote {
   padding: 0 1em;
 }
 
+.main-content {
+  max-width: 850px;
+}
+
 .hv-image {
   position: relative;
   width: 50%;
@@ -97,6 +101,10 @@ blockquote {
   z-index: 999;
   border-radius: 0px;
   display: none;
+}
+
+#page-header {
+  margin-bottom: 0.5rem;
 }
 
 #review-content #collapse-control.collapsed:after {
