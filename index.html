@@ -2,22 +2,22 @@
 layout: home
 title: "For the Love of Music"
 ---
-<div id="page-header" class="row justify-content-center text-secondary">
+<div class="row justify-content-center align-items-center text-secondary">
   {% if paginator.previous_page %}
     <span class="text-uppercase">Latest Features (Page {{ paginator.page }})</span>
   {% else %}
     <span class="text-uppercase">Latest Features</span>
   {% endif %}
 </div>
-<div class="card p-5 align-items-center">
+<div class="card mt-2 px-5 py-3 justify-content-center align-items-center">
   {% assign counter = 0 %}
   {% for post in paginator.posts %}
     {% assign remainder = counter | modulo: 4 %}
     {% if counter == 0 %}
-      <div class="row no-gutters">
+      <div class="row">
     {% elsif remainder == 0 %}
       </div>
-      <div class="row no-gutters">
+      <div class="row">
     {% endif %}
     <div class="col-sm px-1 pt-2 hv-image">
       <a href="{{ post.url }}" alt="{{ post.title }}" class="cover-img">
@@ -37,12 +37,12 @@ title: "For the Love of Music"
 </div>
 
 {% if paginator.total_pages > 1 %}
-<div class="pagination justify-content-center mt-2">
+<div class="pagination justify-content-center align-items-center my-4">
   {% if paginator.previous_page %}
     <a href="{{ paginator.previous_page_path | relative_url }}">&laquo; Prev</a>
   {% endif %}
 
-  <div class="mx-3">
+  <div class="px-3">
   {% for page in (1..paginator.total_pages) %}
     {% if page == paginator.page %}
       <em>{{ page }}</em>
