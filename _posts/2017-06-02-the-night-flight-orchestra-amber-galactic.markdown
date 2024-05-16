@@ -14,7 +14,6 @@ links:
   spotify: https://open.spotify.com/album/3hrVTGlMtURm4TguypCyLo
   apple: https://itunes.apple.com/us/album/amber-galactic/1214492834
   amazon: https://www.amazon.com/Amber-Galactic-Night-Flight-Orchestra/dp/B06XHWHZFM/
-  google: https://play.google.com/store/music/album/The_Night_Flight_Orchestra_Amber_Galactic?id=Bykwp3ivtxx5knjz36vthbh2rbe&hl=en
 ---
 
 The first half of this album drags.  The break after Sad State of Affairs brings some experimentation, but nothing seems to pack the same wallop as their breakout album Internal Affairs.

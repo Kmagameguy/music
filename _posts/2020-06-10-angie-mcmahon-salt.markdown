@@ -15,7 +15,6 @@ links:
   spotify: https://open.spotify.com/album/2ALvcYeRWEyQ5CMh0OtMcY
   apple: https://music.apple.com/us/album/salt/1465271887
   amazon: https://www.amazon.com/Salt-Angie-McMahon/dp/B07SNGY3DX/
-  google: https://play.google.com/store/music/album/Angie_McMahon_Salt?id=Bfq2epzu2hk3blughhhodvjcy3a&hl=en_US
 ---
 
 Effective is Singer-Songwriter Angie McMahon's *Salt*.  This album is an easy jammer with no drop of effort wasted.  Backed by perfectly pocketed drum tracks, Angie's buzzy electric guitar drives a solid rhythm section that would be rock-n-roll enough as an instrumental album.  Then Angie's vocals take center stage and you can tell you're in for something special.

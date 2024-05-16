@@ -17,7 +17,6 @@ links:
   spotify: https://open.spotify.com/album/14Q6NvjUSthc0Xgb5EgtQd
   apple: https://itunes.apple.com/us/album/sorry/1020769172
   amazon: https://www.amazon.com/Sorry-Meg-Myers/dp/B011TSZ5HY/
-  google: https://play.google.com/store/music/album/Meg_Myers_Sorry?id=Bh2pudd5oka2nlc4cu5csihhybe
 ---
 
 

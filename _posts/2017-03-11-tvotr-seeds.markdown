@@ -16,7 +16,6 @@ links:
   spotify: https://open.spotify.com/album/2pJdnCpeXm3KVUlyuNSeRX
   apple: https://itunes.apple.com/ca/album/seeds/911188443
   amazon: https://www.amazon.com/Seeds-TV-Radio/dp/B00MXGBY4A/
-  google: https://play.google.com/store/music/album/TV_On_The_Radio_Seeds?id=Boa3zgmuqsz3gfqxp4brz5dyyia
 ---
 
 

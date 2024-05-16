@@ -14,7 +14,6 @@ links:
   spotify: https://open.spotify.com/artist/4zxvC7CRGvggq9EWXOpwAo
   apple: https://music.apple.com/us/album/1506612678
   amazon: https://www.amazon.com/Crave-Kiesza/dp/B0892BBBYM
-  google: https://play.google.com/store/music/album/Kiesza_Crave?id=B3ccc4wovv5slbpm6synpktidum&hl=en_US
 ---
 
 Kiesza exploded into mainstream popularity back in 2014 with her electrifying hit _Hideaway_.  The album _Sound of a Woman_ was a monumental first entry for the Canadian multi-instrumentalist & Capoeira enthusiast.  Given _Sound of a Woman_ released in 2014, the casual listener may be lead to believe her debut was a flash in the pan -- but nothing could be further from the truth.

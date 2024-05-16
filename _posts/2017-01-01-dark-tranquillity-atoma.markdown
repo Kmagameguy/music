@@ -15,7 +15,6 @@ links:
   spotify: https://open.spotify.com/album/3N5vYy8vIFgpvtrIbFtvvG
   apple: https://itunes.apple.com/us/album/atoma/1154647487
   amazon: https://www.amazon.com/Atoma-Dark-Tranquillity/dp/B01LXJ5TRO/ref=ice_ac_b_dpb
-  google: https://play.google.com/store/music/album?id=B7mhb5f5jizj2cqz6qhdflgykg4&tid=song-Tmvhmgzzwpiyf7c6w3ksslelyf4&hl=en
 ---
 
 It may seem strange to call out bonus tracks that are only available on the special edition, but they represent a massive change directionally and tonally for a band that is nearly 30 years old.  The entire album showcases these guys' best songwriting, with Mikael Stanne's vocals in top form.
