@@ -14,7 +14,6 @@ links:
   spotify: https://open.spotify.com/album/3ewAlccDDYFoybQaMnkTvW
   apple: https://itunes.apple.com/us/album/mareridt-deluxe-version/1247992721
   amazon: https://www.amazon.com/Mareridt-Deluxe-Version-Myrkur/dp/B071X7FBKP/
-  google: https://play.google.com/store/music/album/Myrkur_Mareridt_Deluxe_Version?id=Bzurrihkavyxuwuay3jctv6giji&hl=en
 ---
 
 

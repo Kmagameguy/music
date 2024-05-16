@@ -15,7 +15,6 @@ links:
   spotify: https://open.spotify.com/album/2Ha1FUPZ0RDMjLZFu1iVO1
   apple: https://itunes.apple.com/us/album/beast-epic/1238344396
   amazon: https://www.amazon.com/Beast-Epic-Iron-Wine/dp/B071J6LJQ6/
-  google: https://play.google.com/store/music/album/Iron_Wine_Beast_Epic?id=Bwz2ejxpbn6grdypthyquvcwp4q&hl=en
 ---
 
 This is my album of the year.

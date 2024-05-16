@@ -16,7 +16,6 @@ links:
   spotify: https://open.spotify.com/album/1uXJ01pmkQzFFvb7h6sO0y
   apple: https://itunes.apple.com/us/album/few/1203489780
   amazon: https://www.amazon.com/few-He-Legend/dp/B01N19QJCE/
-  google: https://play.google.com/store/music/album/He_Is_Legend_few?id=Bqi62uwr3iddcjvcaikqwt7pqvm&hl=en
 ---
 
 Skronky and rough around the edges like you'd expect from He is Legend.  Not as catchy as 2014's Heavy Fruit - there's definitely some duds in this tracklisting, but a nice continuation of what they do best.

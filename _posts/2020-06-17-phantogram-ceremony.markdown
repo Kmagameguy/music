@@ -15,7 +15,6 @@ links:
   spotify: https://open.spotify.com/album/7nm7uCqJQIoD8Er5kIDKqc
   apple: https://music.apple.com/us/album/ceremony/1496844632
   amazon: https://www.amazon.com/Ceremony-Phantogram/dp/B0849RPQCR/
-  google: https://play.google.com/store/music/album/Phantogram_Ceremony?id=Bdptxxox33piqcffk5ugcaajii4
 ---
 
 Here we sit, a full decade since the debut of *Eyelid Movies* with a new Phantogram release.
